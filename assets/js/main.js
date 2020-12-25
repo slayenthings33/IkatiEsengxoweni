@@ -27,6 +27,10 @@
 			}, 100);
 		});
 
+		window.onload = function() {
+			document.getElementById("cradle").play();
+		}
+
 	// Header.
 		if ($banner.length > 0
 		&&	$header.hasClass('alt')) {
